@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 data = pd.read_csv('assets/2019.csv')
-sim = pickle.load(open('assets/similarity_score.pkl','rb'))
+sim = pickle.load(open('https://drive.google.com/file/d/1ew4z4SdH1HFqxRswPCJZbxjczBhgmpf-/view?usp=sharing','rb'))
 
 index = pd.Series(data.index,index = (data['movie_title']+' '+data['genres']))
 index_ac1 = pd.Series(data.index,index = (data['actor_1_name']))
