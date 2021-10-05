@@ -1,2 +1,2 @@
 streamlit==0.82.0
-vaderSentiment==3.3.2
+
